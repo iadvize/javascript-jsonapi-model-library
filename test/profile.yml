@@ -1,0 +1,39 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+title: Profile
+type: object
+required:
+  - data
+definitions:
+  none_empty_string:
+    type: string
+    minLength: 1
+properties:
+  data:
+    type: object
+    required:
+      - id
+      - type
+    additionalProperties: true
+    properties:
+      id:
+        type: string
+        minLength: 1
+      type:
+        $ref: "#/definitions/none_empty_string"
+      attributes:
+        type: object
+        additionalProperties: true
+        properties:
+          name:
+            $ref: "#/definitions/none_empty_string"
+          firstName:
+            type: string
+          avatar:
+            type: string
+          createdAt:
+            $ref: "#/definitions/none_empty_string"
+        required:
+          - name
+          - firstName
+          - avatar
+          - createdAt

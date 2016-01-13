@@ -18,6 +18,7 @@
   "devDependencies": {
     "babel-core": "^5.5.0",
     "babel-eslint": "^4.1.6",
+    "chai": "^3.4.1",
     "del": "^2.0.2",
     "eslint-config-xo-space": "^0.7.0",
     "eslint-plugin-babel": "^3.0.0",
@@ -44,6 +45,9 @@
     "test": "gulp"
   },
   "dependencies": {
+    "js-yaml": "^3.5.2",
+    "jsonapi-serializer": "^2.0.4",
+    "lodash": "^4.0.0",
     "tv4": "^1.2.7"
   }
 }
