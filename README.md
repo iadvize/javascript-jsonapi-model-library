@@ -1,4 +1,5 @@
-# javascript-jsonapi-model-library [![NPM version][npm-image]][npm-url] [![Build Status][circle-image]][circle-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# javascript-jsonapi-model-library
+[![NPM version][npm-image]][npm-url] [![Build Status][circle-image]][circle-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Provide base model to deal with jsonapi models
 
 ## Installation
