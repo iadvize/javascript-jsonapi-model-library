@@ -1,6 +1,6 @@
 {
   "name": "javascript-jsonapi-model-library",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Provide base model to deal with jsonapi models",
   "homepage": "",
   "author": {
