@@ -1,6 +1,6 @@
 {
   "name": "javascript-jsonapi-model-library",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Provide base model to deal with jsonapi models",
   "homepage": "",
   "author": {
@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "js-yaml": "^3.5.2",
-    "jsonapi-serializer": "^2.0.4",
+    "jsonapi-serializer": "^3.0.1",
     "lodash": "^4.0.0",
     "tv4": "^1.2.7"
   }
