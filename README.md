@@ -3,6 +3,8 @@ javascript-jsonapi-model-library [![Build Status][circle-image]][circle-url] [![
 
 > Provide base model to deal with jsonapi models
 
+## Examples
+
 ## Install
 
 ```sh
