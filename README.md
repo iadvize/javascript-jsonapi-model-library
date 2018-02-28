@@ -1,14 +1,17 @@
-# javascript-jsonapi-model-library
-[![NPM version][npm-image]][npm-url] [![Build Status][circle-image]][circle-url] [![Dependency Status][daviddm-image]][daviddm-url]
+javascript-jsonapi-model-library  [![Build Status][circle-image]][circle-url] [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
+================================
+
 > Provide base model to deal with jsonapi models
 
-## Installation
+## Install
 
 ```sh
 $ npm install --save javascript-jsonapi-model-library
 ```
 
-## Usage
+## Documentation
+
+### Usage
 
 ```js
 import Model from 'javascript-jsonapi-model-library';
@@ -37,14 +40,6 @@ try {
 }
 ```
 
-## License
+## Contribute
 
- © [Simon Paitrault]()
-
-
-[npm-image]: https://badge.fury.io/js/javascript-jsonapi-model-library.svg
-[npm-url]: https://npmjs.org/package/javascript-jsonapi-model-library
-[circle-image]: https://circleci.com/gh/iadvize/javascript-jsonapi-model-library.svg?style=svg
-[circle-url]: https://circleci.com/gh/iadvize/javascript-jsonapi-model-library
-[daviddm-image]: https://david-dm.org/iAdvize/javascript-jsonapi-model-library.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/iAdvize/javascript-jsonapi-model-library
+Look at contribution guidelines here : [CONTRIBUTING.md](CONTRIBUTING.md)
